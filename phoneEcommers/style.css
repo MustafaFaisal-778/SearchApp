@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f3f3;
+}
+.header{
+        /* width: 10%; */
+        height: 12vh;
+        background: #48afff !important;
+
+}
+.image{
+    width: 23vh;
+    margin-left: 12px;
+}
+.butn{
+    width: 15vh;
+    border-color: white;
+    color: white;
+    margin-left: 22%;
+    background-color:#48afff ;
+}
+.butn:hover{
+background-color:#ffffff24;
+
+}
+.categories-btn:hover{
+    background-color: white;
+}
+.mov{
+    margin: 1%;
+}
+
+
+.srch{
+       /* margin: 0% auto; */
+       width: 36vw;
+       height: 7vh;
+       padding: 1px;
+       /* position: absolute; */
+       margin-left: 21%;
+}
+
+.categories{
+    /* width: 100vw; */
+    /* border: 1px solid black; */
+    height: 8vw;
+    position: sticky;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.categories-btn{
+    width: 9vw;
+    height: 4vw;
+    background-color: aqua;
+    border-radius: 11px;
+    color: black;
+    margin-top: 1.8vw;
+    /* margin-left: 1vw; */
+    font-size: 1.6vw;
+    padding: 1px;
+    
+
+}
+.cards{
+    /* width: 100vw; */
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card-body:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+.card-body{
+    width: 27vw;
+    /* border: 1px solid black; */
+    /* width: 270px; */
+    height: 36vw;
+    margin-top: 4vw;
+    margin-left: 3vw;
+    border-radius: 13%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 1.5%;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.img-section{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 70%;
+    border-radius: 13%;
+    margin-top: 0%;
+    /* background-color: #f0f0f0; */
+    /* background-image: url(img/apple/13\ 3.webp); */
+    background-size: contain;
+    background-position: center;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    background-repeat: no-repeat;
+}
+.img-section>img{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+hr{
+    margin: 1%;
+}
+
+.text-section{
+    font-family: fangsong;
+    padding: 2%;
+    font-size: 2vw;
+    margin-left: 1%;
+
+}
+.text-section>h6{
+    font-weight: bold;
+    font-size: 2.3vw;
+    margin-bottom: 1%;
+}
+
